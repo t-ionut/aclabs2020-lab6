@@ -7,5 +7,6 @@ ADD . /app
 WORKDIR /app
 
 RUN pip3 install Django==2.2.12
+RUN python aclabs/manage.py migrate
 
-CMD "bash"
+CMD ["python", "aclabs/manage.py", "runserver", "0:8000"]
