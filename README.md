@@ -3,15 +3,8 @@
 This repo will contain:
  - Docker file for python 3.7
  - A Django project containing a ToDo model
- - A docker-compose setup for Django <-> MySQL communication
 
 ## How to run project
-
-Install docker-compose and run the command.
-
-`docker-compose up`
-
-**OR**
 
 Build image:
 
