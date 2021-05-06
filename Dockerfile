@@ -6,6 +6,6 @@ RUN mkdir /app
 ADD . /app
 WORKDIR /app/aclabs
 
-RUN pip install Django==2.2.12
+RUN pip install Django==3.1
 
 CMD ["/app/entrypoint.sh"]
